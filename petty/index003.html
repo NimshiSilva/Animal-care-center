@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIMAL CARE CENTER</title>
+    <link rel="stylesheet" href="style003.css">
+</head>
+<body>
+    <section class="showcase">
+        <header>
+          <h2 class="logo">ANIMAL CARE CENTER</h2>
+          <div class="toggle "></div>
+        </header>
+       <video src="pet.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+          <h2>love pets </h2> 
+          <h3>Enjoy and pamper your pets</h3>
+          <p>Most important of all, show them just how much they are loved. Take a few extra minutes to cuddle. Let your dog play with his buddies just a bit longer. Give your cat an extra treat now and then just for being cute. Be slow to anger, quick to forgive and cherish
+               every moment you have with your pets this Valentine’s Day.</p>
+          <a href="#">More Details</a>
+        </div>
+        <ul class="social">
+          <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+          <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+          <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+        </ul>
+      </section>
+      <div class="menu">
+        <ul>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Destination</a></li>
+          <li><a href="#">Feedback</a></li>
+          <li><a href="#">Members</a></li>
+        </ul>
+      </div>
+      <script>
+          const menuToggle=document.querySelector('.toggle')
+          const showcase = document.querySelector('.showcase')
+
+          menuToggle.addEventListener('click',() => {
+              menuToggle.classList.toggle('active')
+              showcase.classList.toggle('active')
+          })
+      </script>
+</html>
